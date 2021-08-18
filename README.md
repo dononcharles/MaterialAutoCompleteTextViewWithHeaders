@@ -4,7 +4,7 @@ Timer custom dialog is a second converter tool. It converts hours, minutes and s
 
 # How to use
 * Add dependency
-```
+```gradle
 allprojects {
   repositories {
       maven { url 'https://jitpack.io' }
@@ -15,7 +15,7 @@ allprojects {
  implementation to be defined
 ```
 * Add TextInputEditText in your layout file
-```
+```xml
 <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/cakesTil"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu"
@@ -43,7 +43,7 @@ allprojects {
 </com.google.android.material.textfield.TextInputLayout>
 ```
 * In your activity class
-```
+``` koltin
  private val tmpList: MutableList<TempModel> = mutableListOf()
 
     @SuppressLint("SetTextI18n")
@@ -66,7 +66,7 @@ allprojects {
  }
 ```
 
-```
+```kotlin
    private fun setListItem() {
         tmpList.add(TempModel(headerName = "Cake header 1", childName = null, idChild = null, isHeader = true))
         tmpList.add(TempModel(headerName = "", childName = "Cake 1", idChild = 1, isHeader = false))
