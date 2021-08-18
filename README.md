@@ -1,3 +1,5 @@
+![](https://jitpack.io/v/dononcharles/MaterialAutoCompleteTextViewWithHeaders.svg)
+https://jitpack.io/#dononcharles/MaterialAutoCompleteTextViewWithHeaders
 
 # ListViewWithHeaders
 Timer custom dialog is a second converter tool. It converts hours, minutes and seconds into seconds.
@@ -11,8 +13,8 @@ allprojects {
   }
 }
 ```
-```
- implementation to be defined
+```gradle
+ implementation implementation 'com.github.dononcharles:MaterialAutoCompleteTextViewWithHeaders:Tag@aar'
 ```
 * Add TextInputEditText in your layout file
 ```xml
