@@ -43,7 +43,7 @@ allprojects {
 </com.google.android.material.textfield.TextInputLayout>
 ```
 * In your activity class
-``` koltin
+```kotlin
  private val tmpList: MutableList<TempModel> = mutableListOf()
 
     @SuppressLint("SetTextI18n")
